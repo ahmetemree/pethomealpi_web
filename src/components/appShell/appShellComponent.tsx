@@ -2,7 +2,7 @@ import { AppShell, Burger } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import ShopNavbar from '../navbar/ShopNavbar';
 import { Outlet } from 'react-router-dom';
-
+import "./appShell.scss"
 function AppShellComponent() {
   const [opened, { toggle }] = useDisclosure();
 
@@ -16,7 +16,7 @@ function AppShellComponent() {
       }}
       padding="md"
     >
-      <AppShell.Header>
+      <AppShell.Header className='app-shell-header'>
         <Burger
           opened={opened}
           onClick={toggle}

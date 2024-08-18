@@ -11,9 +11,7 @@ export function HomePage() {
       <div className="info">
         <img src="../../public/logo.png" alt="" />
         <span>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloribus. Aliquam
-          necessitatibus quos reprehenderit consequuntur harum! Consectetur incidunt deserunt
-          suscipit hic a laboriosam, et nostrum illo facere vitae quod ipsa?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
         </span>
       </div>
 

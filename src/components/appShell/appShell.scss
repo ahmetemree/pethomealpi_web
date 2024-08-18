@@ -1,0 +1,12 @@
+/* styles.css */
+.app-shell-header {
+    height: 20vh; /* Varsayılan yükseklik */
+  }
+  
+  /* 630px ve altındaki ekranlar için yükseklik ayarı */
+  @media (max-width: 630px) {
+    .app-shell-header {
+      height: 35vh; /* Daha küçük ekranlarda yükseklik */
+    }
+  }
+  

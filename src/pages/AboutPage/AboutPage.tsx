@@ -14,6 +14,8 @@ const AboutPage = () => {
       <div className="imageContainer">
 
       <img src="../../public/logo.png" alt="" />
+      <img src="../../public/logo.png" alt="" />
+      <img src="../../public/logo.png" alt="" />
       </div>
     </div>
   )
