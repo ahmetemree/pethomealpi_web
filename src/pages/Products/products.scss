@@ -1,0 +1,15 @@
+.productPage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   position: relative;
+
+    .loader{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100px;
+        bottom: 0;
+        margin: auto;
+    }
+}

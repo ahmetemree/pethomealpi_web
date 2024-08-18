@@ -1,0 +1,92 @@
+.homePage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: scroll;
+    .line{
+        border-bottom: 1px solid rgba($color: #d0d0d01b, $alpha: 1.0);
+        width: 80vw;
+    }
+    .info{
+        display: flex;
+        align-items:center;
+        justify-content: flex-start;
+        transform: translateY(150%); /* Başlangıçta sağda yer alır */
+        animation: slide-up 2s ease forwards; /* Animasyonu uygula */
+    
+    
+        img{
+            width: 20%;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        span{
+            margin-right: 50px;
+        }
+    }
+    
+    .photos{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // animation: slide-up 2s ease forwards;
+        
+            .img1{
+                width: 15%;
+                animation: slide-up-1 2s ease forwards;
+                animation-delay: 1s;
+                transform: translateY(250%);
+                
+            }            
+            .img2{
+                width: 15%;
+                animation: slide-up-2 2s ease forwards;
+                animation-delay: 1.5s;
+                transform: translateY(250%);
+            }            
+            .img3{
+                width: 15%;
+                animation: slide-up-3 2s ease forwards;
+                animation-delay: 2s;
+                transform: translateY(250%);
+            }            
+        
+    }
+    
+} 
+@keyframes slide-up {
+    0% {
+      transform: translateY(150%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+@keyframes slide-up-1 {
+    0% {
+      transform: translateY(150%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+@keyframes slide-up-2 {
+    0% {
+      transform: translateY(150%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+@keyframes slide-up-3 {
+    0% {
+      transform: translateY(150%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
