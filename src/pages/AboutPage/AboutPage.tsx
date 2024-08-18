@@ -13,9 +13,10 @@ const AboutPage = () => {
       </div>
       <div className="imageContainer">
 
-      <img src="../../public/logo.png" alt="" />
-      <img src="../../public/logo.png" alt="" />
-      <img src="../../public/logo.png" alt="" />
+      <img src="https://res-console.cloudinary.com/dytlryqvs/thumbnails/v1/image/upload/v1723987281/bG9nb19namFmcWc=/preview" alt="" />
+      <img src="https://res-console.cloudinary.com/dytlryqvs/thumbnails/v1/image/upload/v1723987281/bG9nb19namFmcWc=/preview" alt="" />
+      <img src="https://res-console.cloudinary.com/dytlryqvs/thumbnails/v1/image/upload/v1723987281/bG9nb19namFmcWc=/preview" alt="" />
+      
       </div>
     </div>
   )

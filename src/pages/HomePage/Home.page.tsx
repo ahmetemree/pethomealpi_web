@@ -9,7 +9,7 @@ export function HomePage() {
         <span></span>
       </div>
       <div className="info">
-        <img src="../../public/logo.png" alt="" />
+        <img src="https://res-console.cloudinary.com/dytlryqvs/thumbnails/v1/image/upload/v1723987281/bG9nb19namFmcWc=/preview" alt="" />
         <span>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
         </span>
