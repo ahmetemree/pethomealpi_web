@@ -1,6 +1,11 @@
 import { Card, Image, Text, Badge, Button, Group } from '@mantine/core';
+import { Product } from './product_type'; // Arayüzü içe aktarın
 
-function ProductCard({product})  {
+interface ProductCardProps {
+  product: Product;
+}
+function ProductCard({product}: ProductCardProps)  {
+  
   return (
     <Card shadow="sm" padding="lg" radius="md" withBorder className='productCard'>
       <Card.Section>
