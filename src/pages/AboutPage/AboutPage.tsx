@@ -13,9 +13,9 @@ const AboutPage = () => {
       </div>
       <div className="imageContainer">
 
-      <img src="https://res-console.cloudinary.com/dytlryqvs/thumbnails/v1/image/upload/v1723987281/bG9nb19namFmcWc=/preview" alt="" />
-      <img src="https://res-console.cloudinary.com/dytlryqvs/thumbnails/v1/image/upload/v1723987281/bG9nb19namFmcWc=/preview" alt="" />
-      <img src="https://res-console.cloudinary.com/dytlryqvs/thumbnails/v1/image/upload/v1723987281/bG9nb19namFmcWc=/preview" alt="" />
+      <img src="https://res.cloudinary.com/dytlryqvs/image/upload/v1723987281/logo_gjafqg.png" alt="" />
+      <img src="https://res.cloudinary.com/dytlryqvs/image/upload/v1723987281/logo_gjafqg.png" alt="" />
+      <img src="https://res.cloudinary.com/dytlryqvs/image/upload/v1723987281/logo_gjafqg.png" alt="" />
       
       </div>
     </div>

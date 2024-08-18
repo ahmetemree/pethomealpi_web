@@ -6,7 +6,7 @@ function ShopNavbar() {
   let navigate = useNavigate();
   return (
     <div className="shopNavbar">
-      <img src="https://res-console.cloudinary.com/dytlryqvs/thumbnails/v1/image/upload/v1723987281/bG9nb19namFmcWc=/preview" alt="" onClick={() => navigate('/')} />
+      <img src="https://res.cloudinary.com/dytlryqvs/image/upload/v1723987281/logo_gjafqg.png" alt="" onClick={() => navigate('/')} />
       <div className="options">
         <span onClick={() => navigate('/about')}>About Us</span>
         <span onClick={() => navigate('/products')}>Products</span>
