@@ -19,7 +19,7 @@ function ShopNavbar() {
         </div>
         <div className="rightContainer">
           <div className="buttons">
-            <button>Login</button>
+            <button onClick={()=>navigate("/login")}>Login</button>
             <button>Sign Up</button>
           </div>
         </div>
