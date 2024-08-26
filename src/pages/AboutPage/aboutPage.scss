@@ -12,8 +12,7 @@
   display: inline-block;
   transform: translateX(100%); /* Başlangıçta sağda yer alır */
   animation: slide-left 2s ease forwards; /* Animasyonu uygula */
-  margin-top: 100px;
-  @media (max-width: 440px) {
+  @media (max-width: 460px) {
     width: 50%;
     h1{
       font-size: 20px;
@@ -23,6 +22,7 @@
       font-size: 10px;
     }
   }
+  
 }
 
 .imageContainer {
@@ -34,14 +34,17 @@
   justify-content: space-between;
 
   img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 
-    @media (max-width: 440px) {
-      width: 100px;
-      height: 100px;
-      object-fit: cover;
-    }
+    
+    
+    
+  }
+  @media (max-width: 805px) {
+    
+    flex-direction: column;
+    align-items: center;
   }
 }
 

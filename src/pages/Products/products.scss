@@ -1,19 +1,14 @@
-.productPage{
+.productPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+margin: 10px;
+  .loader {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-   position: relative;
+    justify-content: center;
+  }
 
-    .loader{
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 100px;
-        bottom: 0;
-        margin: auto;
-    }
-
-    @media (max-width: 440px) {
-        margin-top: 100px;
-    }
+  
 }

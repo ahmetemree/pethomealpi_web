@@ -8,7 +8,7 @@ function AppShellComponent() {
 
   return (
     <AppShell
-      header={{ height: "20vh" }}
+      
       navbar={{
         width: 300,
         breakpoint: 'sm',

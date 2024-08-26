@@ -4,10 +4,7 @@ import './homePage.scss';
 export function HomePage() {
   return (
     <div className="homePage">
-      <ShopNavbar />
-      <div className="line">
-        <span></span>
-      </div>
+     
       <div className="info">
         <img src="https://res.cloudinary.com/dytlryqvs/image/upload/v1723987281/logo_gjafqg.png" alt="" />
         <span>

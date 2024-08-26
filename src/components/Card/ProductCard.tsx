@@ -26,7 +26,7 @@ function ProductCard({product}: ProductCardProps)  {
         {product?.description}
       </Text>
 
-      <Button color="blue" fullWidth mt="md" radius="md" style={{display:"flex",alignItems:"center",justifyContent:"space-between",gap:"20px",backgroundColor:"green"}}>
+      <Button color="blue" fullWidth mt="md" radius="md" style={{display:"flex",alignItems:"center",justifyContent:"space-between",backgroundColor:"green"}}>
         <span>Whatsapp'tan sor!</span>
         <img src="https://cdn-icons-png.flaticon.com/512/1384/1384023.png" alt="" style={{width:"25px",height:"25px",marginLeft:"40px"}}/>
       </Button>
